@@ -1,33 +1,87 @@
 body{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr;
-
+    grid-template-rows: 1fr 1fr 1fr;
+    background-image: url('image\ \(2\).webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 
 .vänsterål{
     grid-column: 1/2;
     grid-row: 1/4;
-   
+    
+}
+
+.vänsterål img{
+    height: 70%;
+    width: 100%;
 }
 
 .rubrikenålS{
     grid-column: 2/4;
     grid-row: 1/2;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 13px;
+    
+}
+
+.rubrikenålS img{
+    width: 100%;
+    height: 42%;
+    object-fit: fill;
 
 }
 
 .högerål{
     grid-column: 4/5;
-    grid-row: 1/4;
+    grid-row: 1/5;
+}
+.högerål img{
+    width: 100%;
+    height: 70%;
 }
 
-.ingridiensål{
+.ing{
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 2/3;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 120px;
 }
 
 .receptål{
     grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-left: 10px;
+}
+
+a:link {
+    color: black;
+    
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+body{
+    font-family: sans-serif;
 }
